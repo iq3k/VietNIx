@@ -47,6 +47,9 @@
     - Port 21: FTP.
     - Port 22: SSH.
     - Port 3389: Remort Desktop.
+    - Port 2222: direct admin panel.
+    - Port 7800: aaPanel.
+    - Port 2087/2083: WHM/Cpanel.
 - Ở VietNix hiện tại Intel Xeon Platinum là mạnh nhất.
 # WebPanel
 
@@ -54,26 +57,11 @@
 - Giúp cài đặt, quản lý các phần mềm, quản lý tệp, quản lý domain, quản lý CSDL, bảo mật: quản lý SSL/TLS & SSH, Monitor, Stats, Logs.
 
 ## Direct Admin
-- Port mặc định: 2222
-- Chạy tốt trên các hđh Linux. Không chạy được trên hđh Windows.
-- Yêu cầu phần cứng: Processer 500 MHz, Ram 1GB với ít nhất 2GB swap, HDD 2GB trống.
-- Ưu điểm:
-    - Giao diện trực quan, sử dụng đơn giản.
-    - Gói đăng ký giá cả phải chăng.
-    - Hỗ trợ.
-    - Tính ổn định, phục hồi sự cố tự động.
-    - Tốc độ xử lý nhanh, ít tiêu tốn tài nguyên.
-    - **Hỗ trợ nhiều phân cấp user: admin level, reseller level, user level.**
-    - Manual configuration.
-- Nhược điểm: khả năng thêm chức năng mới, khả năng chỉnh sửa file (không dùng font tương thích với unicode), cộng đồng nhỏ.
 
 ## aaPanel
-- Yêu cầu phần cứng:
-- Port mặc định: 
+
 ## cPanel
 
-- Port mặc định whm: 2087
-- Port mặc định cPanel: 2082; 2083(SSL)
 
 
 
